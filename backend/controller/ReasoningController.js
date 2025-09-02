@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
-// const GEMINI_API_KEY = "AIzaSyAtyRilPFYoBMcJad_Axg5ArIqdCUyt7BU";
-const GEMINI_API_KEY = "AIzaSyAl8hcajvBf6wL11IXWFtY6vZtZC62zJ88";
+// const GEMINI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxU";
+const GEMINI_API_KEY = "xxxxxxxxxx8";
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
 export const ReasoningQuestionGenerator=async (req, res)=>{
@@ -79,4 +79,5 @@ export const ReasoningQuestionGenerator=async (req, res)=>{
     res.json({ questions: [] });
   }
 };
+
 
